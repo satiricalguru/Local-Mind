@@ -1,0 +1,23 @@
+{
+  "name": "@localmind/electron",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && electron dist/main.js",
+    "start": "electron dist/main.js"
+  },
+  "dependencies": {
+    "@localmind/registry-schema": "workspace:*",
+    "@localmind/shared-types": "workspace:*",
+    "better-sqlite3": "^11.3.0",
+    "electron-log": "^5.2.4",
+    "systeminformation": "^5.23.5"
+  },
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "electron-builder": "^26.15.3",
+    "typescript": "^5.5.3"
+  }
+}
