@@ -218,7 +218,7 @@ function RootLayout() {
           {/* Logo Brand */}
           <div className={`p-5 flex items-center gap-3 border-b border-border/50 ${collapsed ? "justify-center" : ""}`}>
             <div className="w-9 h-9 flex items-center justify-center shrink-0">
-              <img src={theme === "light" ? "/logo-light.png" : "/logo.png"} className="w-full h-full object-contain" alt="LocalMind Logo" />
+              <img src={theme === "light" ? "./logo-light.png" : "./logo.png"} className="w-full h-full object-contain" alt="LocalMind Logo" />
             </div>
             {!collapsed && (
               <div className="flex flex-col">
