@@ -1,0 +1,32 @@
+{
+  "appId": "com.localmind.app",
+  "productName": "LocalMind",
+  "directories": {
+    "output": "dist_electron"
+  },
+  "files": [
+    "dist/**/*",
+    "assets/**/*",
+    "package.json",
+    {
+      "from": "../../packages/registry-schema/dist",
+      "to": "packages/registry-schema/dist"
+    },
+    {
+      "from": "../../packages/shared-types/dist",
+      "to": "packages/shared-types/dist"
+    },
+    {
+      "from": "../../apps/renderer/dist",
+      "to": "renderer/dist"
+    }
+  ],
+  "mac": {
+    "target": "dmg",
+    "icon": "assets/icon.png"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "assets/icon.png"
+  }
+}
