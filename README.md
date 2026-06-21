@@ -89,6 +89,29 @@ To compile the packages and build the distribution assets:
 pnpm build
 ```
 
+### Packaging for Release
+To package the app as a standalone installer (`.dmg` on macOS, `.exe` on Windows) locally:
+```bash
+pnpm package
+```
+
+### ⚠️ Installation Troubleshooting
+
+Since the GitHub Actions release binaries are open-source and compiled in a cloud CI environment without a paid commercial certificate, your operating system's security gatekeeper might display warnings:
+
+#### 🍎 macOS: `"LocalMind" is damaged and can't be opened` or `"Unidentified Developer"`
+This is Gatekeeper's default warning for unsigned/un-notarized applications. To open it:
+1. Drag the **LocalMind** app to your `/Applications` folder.
+2. Open your terminal and run:
+   ```bash
+   xattr -cr /Applications/LocalMind.app
+   ```
+3. Alternatively, you can **Right-click (or Control-click)** the app icon in Finder, select **Open**, and click **Open** in the confirmation dialog.
+
+#### 🪟 Windows: `Windows protected your PC (SmartScreen)`
+1. Click **More info** in the popup window.
+2. Click **Run anyway** to launch the installer.
+
 ---
 
 ## 🎨 Design Theme Customization
