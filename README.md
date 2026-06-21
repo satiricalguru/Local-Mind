@@ -1,13 +1,21 @@
-# 🧠 LocalMind
+<p align="center">
+  <img src="logo.png" width="128" height="128" alt="LocalMind Logo" />
+</p>
 
-[![pnpm](https://img.shields.io/badge/package%20manager-pnpm-F6871F?style=flat-square&logo=pnpm&logoColor=white)](https://pnpm.io/)
-[![Electron](https://img.shields.io/badge/desktop--shell-Electron-47848F?style=flat-square&logo=electron&logoColor=white)](https://www.electronjs.org/)
-[![React](https://img.shields.io/badge/frontend-React--Vite-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![Tailwind CSS v4](https://img.shields.io/badge/styling-TailwindCSS%20v4-38BDF8?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![SQLite](https://img.shields.io/badge/database-SQLite--better--sqlite3-003B57?style=flat-square&logo=sqlite&logoColor=white)](https://github.com/WiseLibs/better-sqlite3)
+<h1 align="center">LocalMind</h1>
 
-> **Every model. Your machine.**  
-> LocalMind is a state-of-the-art, 100% private, and local desktop companion for running LLMs, Speech-to-Text (ASR), Text-to-Speech (TTS), image generators, audio, and video synthesis offline on your hardware.
+<p align="center">
+  <a href="https://pnpm.io/"><img src="https://img.shields.io/badge/package%20manager-pnpm-F6871F?style=flat-square&logo=pnpm&logoColor=white" alt="pnpm" /></a>
+  <a href="https://www.electronjs.org/"><img src="https://img.shields.io/badge/desktop--shell-Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/frontend-React--Vite-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/styling-TailwindCSS%20v4-38BDF8?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="https://github.com/WiseLibs/better-sqlite3"><img src="https://img.shields.io/badge/database-SQLite--better--sqlite3-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" /></a>
+</p>
+
+<p align="center">
+  <strong>Every model. Your machine.</strong><br />
+  LocalMind is a state-of-the-art, 100% private, and local desktop companion for running LLMs, Speech-to-Text (ASR), Text-to-Speech (TTS), image generators, audio, and video synthesis offline on your hardware.
+</p>
 
 ---
 
