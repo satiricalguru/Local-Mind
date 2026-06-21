@@ -4,6 +4,11 @@
   "directories": {
     "output": "dist_electron"
   },
+  "publish": {
+    "provider": "github",
+    "owner": "satiricalguru",
+    "repo": "Local-Mind"
+  },
   "files": [
     "dist/**/*",
     "assets/**/*",

@@ -3,6 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "Every model. Your machine.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satiricalguru/Local-Mind.git"
+  },
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
